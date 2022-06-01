@@ -4,7 +4,7 @@ Small Project about PoS Blockchain Network using Python.
 
 <!-- GETTING STARTED -->
 ## ER Diagram
-
+![ER_Diagram](ER_Diagram.png)
 
 <!-- USAGE EXAMPLES -->
 ## Usage
