@@ -7,18 +7,18 @@ Small Project about PoS Blockchain Network using Python.
 ![ER_Diagram](ER_Diagram.png)
 
 1. Transaction Entity: To store basic transaction information: from address, to address, amount of native token, type of transaction, ...
-2. Transaction Pool: To store list of waiting transaction so node validator can check and add to new block if valid.
-3. Block: To store list of confirm transaction then broadcast to all network.
-4. Blockchain: To store list of blocks starting from default genesis block.
-5. AccountModel: To store state of specific block ( including which publickey own how many token )
+2. Transaction Pool: To store the list of the waiting transaction so the node validator can check and add to a new block if valid.
+3. Block: To store a list of confirmed transactions and then broadcast to all networks.
+4. Blockchain: To store the list of blocks starting from the default genesis block.
+5. AccountModel: To store the state of the specific block ( including which public key own how many native tokens)
 6. Wallet: To store keyPair(object contains publicKey and privateKey)
-7. Node: Software to run on specific machine as a "node validator" and "RPC API". 
-8. NodeAPI: To run web api to get data from blockchain and send transaction.
-9. PeerDiscoveryHandler: Mechanism to discovery and create connection by calling SocketCommunication Entity.
+7. Node: Software to run on a specific machine as a "node validator" and "RPC API".
+8. NodeAPI: To run web API to get data from the blockchain and send transactions.
+9. PeerDiscoveryHandler: Mechanism to discover and create connection by calling SocketCommunication Entity.
 10. SocketCommunication: To listening on incomming request ( node<->node p2p protocol ) and store communication socket.
 11. SocketConnector: Object to store IP, Port.
 12. Lot: Object to store hash submission inside PoS Protocol.
-13. Messages: Object to store message.
+13. Messages: Object to store the message.
 14. ProofOfStake: PoS Protocol.
 
 <!-- USAGE EXAMPLES -->
